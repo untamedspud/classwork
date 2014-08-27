@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		712C3B0E1665AE760023D818 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 712C3B0D1665AE760023D818 /* main.c */; };
 		712C3B101665AE760023D818 /* classwork.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 712C3B0F1665AE760023D818 /* classwork.1 */; };
+		71E691D116757DFE00D5415C /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = 71E691D316757DFE00D5415C /* File.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 
 /* Begin PBXFileReference section */
 		712C3B091665AE760023D818 /* classwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = classwork; sourceTree = BUILT_PRODUCTS_DIR; };
-		712C3B0D1665AE760023D818 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		712C3B0F1665AE760023D818 /* classwork.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = classwork.1; sourceTree = "<group>"; };
+		71E691D216757DFE00D5415C /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = en; path = en.lproj/File.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		712C3B0C1665AE760023D818 /* classwork */ = {
 			isa = PBXGroup;
 			children = (
-				712C3B0D1665AE760023D818 /* main.c */,
+				71E691D316757DFE00D5415C /* File.c */,
 				712C3B0F1665AE760023D818 /* classwork.1 */,
 			);
 			path = classwork;
@@ -117,11 +117,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				712C3B0E1665AE760023D818 /* main.c in Sources */,
+				71E691D116757DFE00D5415C /* File.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71E691D316757DFE00D5415C /* File.c */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E691D216757DFE00D5415C /* en */,
+			);
+			name = File.c;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		712C3B111665AE760023D818 /* Debug */ = {
@@ -210,6 +222,7 @@
 				712C3B151665AE760023D818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
